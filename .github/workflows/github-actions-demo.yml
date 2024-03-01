@@ -11,4 +11,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run API Tests
-        run: newman run "Simple Book API.postman_collection.json" -e "Simple Book API Mock.postman_environment.json"
+        run: newman run "Simple Book API.postman_collection.json"
